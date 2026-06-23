@@ -1,0 +1,26 @@
+# Build output
+target/
+build/
+*.class
+*.jar
+!**/WEB-INF/lib/*.jar
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.settings/
+.classpath
+.project
+.factorypath
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / env
+*.log
+.env
